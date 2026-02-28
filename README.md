@@ -18,9 +18,13 @@ client.py 是客户端程序，负责用户登录、生成 RSA-2048 密钥对、
 
 ## 如何运行
 首先需要安装依赖库：pip install cryptography bcrypt
+
 然后启动服务端程序：python server.py
+
 服务端启动后，可以打开两个终端分别运行客户端：python client.py
+
 使用默认测试账号登录（alice 和 bob）。
+
 登录成功后可以在两个客户端之间发送加密消息。输入 /quit 可以退出聊天。
 
 
